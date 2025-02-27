@@ -81,7 +81,11 @@ tabContainer.Size = UDim2.new(0, 100, 1, -30)
 tabContainer.Position = UDim2.new(0, 0, 0, 30)
 tabContainer.BackgroundColor3 = Color3.fromRGB(255, 0, 128)
 tabContainer.Parent = mainFrame
+
+local tabContainer = Instance.new("UICorner")
 tabContainer.CornerRadius = UDim.new(0, 6)
+tabContainer.Parent = tabContainer
+
 
 tabContainer.BorderSizePixel = 0
 
