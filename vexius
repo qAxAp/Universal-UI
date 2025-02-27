@@ -4,7 +4,7 @@ screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 local mainFrame = Instance.new("Frame")
 mainFrame.Size = UDim2.new(0, 500, 0, 250)
 mainFrame.Position = UDim2.new(0.5, -250, 0.5, -150)
-mainFrame.BackgroundColor3 = Color3.fromRGB(255, 179, 238)
+mainFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 128)
 mainFrame.Parent = screenGui
 mainFrame.Active = true
 mainFrame.Draggable = true
@@ -79,8 +79,9 @@ closeButtonCorner.Parent = closeButton
 local tabContainer = Instance.new("Frame")
 tabContainer.Size = UDim2.new(0, 100, 1, -30)
 tabContainer.Position = UDim2.new(0, 0, 0, 30)
-tabContainer.BackgroundColor3 = Color3.fromRGB(255, 179, 238)
+tabContainer.BackgroundColor3 = Color3.fromRGB(255, 0, 128)
 tabContainer.Parent = mainFrame
+tabContainer.CornerRadius = UDim.new(0, 6)
 
 tabContainer.BorderSizePixel = 0
 
@@ -96,7 +97,7 @@ local tabNames = {
 }
 
 local buttonNames = {
-    {"DioHub’s", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!"},
+    {"DioHubs", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!"},
     {"Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!"},
     {"Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!"},
     {"Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!", "Hello Kitty!"}
