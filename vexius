@@ -105,7 +105,7 @@ local buttonNames = {
 
 local buttonScripts = {
     {
-        "loadstring(game:HttpGet('https://raw.githubusercontent.com/qAxAp/DioHubV6/refs/heads/main/DioHubV6-SOURCE.lua'))()",
+        "loadstring(game:HttpGet('https://raw.githubusercontent.com/qAxAp/Arsenal-Aimbot/refs/heads/main/Aimbott'))()",
         "loadstrinf",
         "loadstrinf",
         "loadstrinf", 
