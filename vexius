@@ -84,7 +84,7 @@ tabContainer.Parent = mainFrame
 
 local tabContainer = Instance.new("UICorner")
 tabContainer.CornerRadius = UDim.new(0, 6)
-tabContainer.Parent = tabContainer
+tabContainer.Parent = mainFrame
 
 
 tabContainer.BorderSizePixel = 0
